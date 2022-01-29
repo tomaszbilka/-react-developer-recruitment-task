@@ -1,13 +1,13 @@
 .item::after {
-  content: "";
-  width: 10px;
-  height: 10px;
   background-color: #fff;
-  position: absolute;
+  border-radius: 50%;
   bottom: 50%;
+  content: "";
+  height: 10px;
+  position: absolute;
   right: 50%;
   transform: translate(50%, 50%);
-  border-radius: 50%;
+  width: 10px;
 }
 
 .item {

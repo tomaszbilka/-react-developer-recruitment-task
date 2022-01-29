@@ -17,7 +17,7 @@ const calcBorderDiv = (StartingAngle, itemWidth, itemHeight) => {
     beta = StartingAngle - 270;
     range = 4;
   }
-
+  //a and b are the two unknown sides of the triangle, where the third side is the length or width of our rectangle. We also know one angle. x and y similarly
   const alfa = 90 - beta;
   const a = Math.sin((beta * Math.PI) / 180.0) * itemWidth;
   const b = Math.cos((beta * Math.PI) / 180.0) * itemWidth;

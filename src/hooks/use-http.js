@@ -17,7 +17,6 @@ const useHttp = () => {
         return response.json();
       })
       .then((responseData) => {
-        console.log(responseData);
         if (responseData.error) {
           throw new Error(responseData.message);
         }

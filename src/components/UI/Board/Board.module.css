@@ -1,0 +1,8 @@
+.board {
+  align-items: center;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  max-height: 80vh;
+  width: 100%;
+}

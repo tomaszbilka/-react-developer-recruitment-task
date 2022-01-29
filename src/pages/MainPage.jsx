@@ -1,11 +1,11 @@
 import Canvas from "../components/Canvas/Canvas";
 import Form from "../components/Form/Form";
 import InfoHeader from "../components/InfoHeader/InfoHeader";
-import Board from "../components/UI/Board";
-import HorizontalRule from "../components/UI/HR";
+import Board from "../components/UI/Board/Board";
+import HorizontalRule from "../components/UI/HR/HR";
 import useHttp from "../hooks/use-http";
 import ErrorMsg from "../components/Error/Error";
-import LoadingSpinner from "../components/UI/LoadingSpinner";
+import LoadingSpinner from "../components/UI/LoadingSpinner/LoadingSpinner";
 
 const MainPage = () => {
   const [sendRequest, data, isLoading, error] = useHttp();
